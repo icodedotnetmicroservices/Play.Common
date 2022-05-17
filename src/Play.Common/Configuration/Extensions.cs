@@ -8,7 +8,7 @@ namespace Play.Common.Configuration
 {
     public static class Extensions
     {
-        public static IHostBuilder ConfigurationAzureKeyVault(this IHostBuilder builder)
+        public static IHostBuilder ConfigureAzureKeyVault(this IHostBuilder builder)
         {
             return builder.ConfigureAppConfiguration((context, configurationBuilder) =>
             {
